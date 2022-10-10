@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="title" content="hhf">
+  <link href="css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet " href="style.css" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body >
+<header >
+  <h2 >Product Manager</h2>
+  <p >supported by Haidar Yousif</p>
+</header>
+  <input id="name" type="text" name="name" placeholder="name">
+  <div class="total">
+
+  <input oninput="Total()" type="number" name="salary" id="salary" placeholder="salary $" >
+
+  <input oninput="Total()" id="discount" type="number" name="discount" placeholder="discount %" min="100">
+  
+
+  <small id="total" ></small>
+  
+    <input type="number" name="count" id="count" placeholder="count" >
+  
+  </div>
+  <button  id="submit" class="create">create</button>
+    <input id="search" type="search" name="search" placeholder="search" oninput="Search(this.value)">
+  <div id="deleteAll"></div>
+   <table >
+     <tr><th>Items</th></tr>
+     <tr>
+       <th >#</th>
+       <th >Title</th>
+       <th >Total</th>
+       <th >update</th>
+       <th >delete</th>
+     </tr>
+     <tbody id="tbody">
+       
+     </tbody>
+   </table>
+<script src="script.js"></script>
+</body>
+
+</html>
